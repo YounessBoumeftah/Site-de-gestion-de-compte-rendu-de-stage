@@ -1,0 +1,291 @@
+body {
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+
+h1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.band {
+  background-color: #000000;
+  width: 100%;
+  height: 30px;
+}
+
+.band-text {
+  color: #ffffff;
+  text-align: center;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Changer la couleur du lien en noir (#111) au survol */
+
+.nav li a:hover {
+    background-color: #000;
+}
+
+ul.nav li {
+  float: left;
+}
+
+h2 {
+  color: #000;
+}
+
+.profil{
+  text-align: center;
+  display: inline-block;
+  border: 2px solid black; 
+  font-weight: normal;
+  padding: 25px;
+  background-color: rgb(255, 255, 255); /* Ajoutez cette ligne pour définir le fond en blanc */
+  margin: 20px 0 0 0; /* Ajoutez une marge de 20 pixels seulement en haut (ou ajustez selon vos besoins) */
+}
+
+
+button {
+  background-color: #000;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+button:hover {
+  background-color: #000;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around; /* Ajustez cela selon vos préférences de mise en page */
+  margin-top: 10px; /* Ajoutez une marge pour l'espace entre les boutons et le reste du contenu */
+}
+
+.tab-connexion{
+  display: flex ;
+  flex-direction: column;
+  border: 10px solid black;
+  padding: 100px; 
+  max-width: 400px; /* Ajustez la largeur maximale du conteneur */
+  margin: auto; /* Centre le conteneur horizontalement */
+  background-color: rgb(255, 255, 255); /* Ajoutez cette ligne pour définir le fond en blanc */
+}
+
+.connexion{
+  display: flex ;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 100px; 
+  max-width: 400px; /* Ajustez la largeur maximale du conteneur */
+  margin: auto; /* Centre le conteneur horizontalement */
+}
+.tab_oublier{
+  display: flex ;
+  flex-direction: column;
+  border: 10px solid black;
+  padding: 100px; 
+  max-width: 400px; /* Ajustez la largeur maximale du conteneur */
+  margin: auto; /* Centre le conteneur horizontalement */
+  background-color: rgb(255, 255, 255); /* Ajoutez cette ligne pour définir le fond en blanc */
+}
+
+.oublier{
+  display: flex ;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 100px; 
+  max-width: 400px; /* Ajustez la largeur maximale du conteneur */
+  margin: auto; /* Centre le conteneur horizontalement */
+  background-color: rgb(255, 255, 255); /* Ajoutez cette ligne pour définir le fond en blanc */
+}
+
+.tab_modifier-cr{
+  display: flex ;
+  flex-direction: column;
+  border: 10px solid black;
+  padding: 50px; 
+  max-width: 400px; /* Ajustez la largeur maximale du conteneur */
+  margin: auto; /* Centre le conteneur horizontalement */
+  background-color: rgb(255, 255, 255); /* Ajoutez cette ligne pour définir le fond en blanc */
+  margin: 50px auto; /* Centre le conteneur horizontalement et ajoute une marge en haut */
+}
+
+.modifier-cr{
+  display: flex ;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 50px; 
+  max-width: 400px; /* Ajustez la largeur maximale du conteneur */
+  margin: auto; /* Centre le conteneur horizontalement */
+}
+
+.lst_users {
+  font-weight: normal;
+  align-items: center; /* Centre tous les éléments dans la colonne */
+  display: flex;
+  flex-direction: column;
+  border: 10px solid black;
+  padding: 100px;
+  max-width: 400px; /* Ajustez la largeur maximale du conteneur */
+  margin: 50px auto; /* Centre le conteneur horizontalement */
+  background-color: rgb(255, 255, 255); /* Ajoutez cette ligne pour définir le fond en blanc */
+}
+
+
+
+
+.envoyer-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre tous les éléments dans la colonne */
+  border: 2px solid black;
+  padding: 50px;
+  max-width: 400px; /* Ajustez la largeur maximale du conteneur */
+  margin: 50px auto; /* Centre le conteneur horizontalement et ajoute une marge en haut */
+  background-color: rgb(255, 255, 255); /* Ajoutez cette ligne pour définir le fond en blanc */
+}
+
+/* Ajoutez ces lignes pour centrer le texte à l'intérieur du conteneur */
+.envoyer-message td {
+  text-align: center;
+}
+
+.accueil {
+  font-size: 60px; /* Vous pouvez ajuster la taille selon vos besoins */
+  text-align: center; /* Centre le texte horizontalement */
+  margin-bottom: 200px; /* Ajoute une marge en bas pour l'espace */
+  background-color: white; /* Fond en blanc */
+  border: 2px solid black; /* Bordures noires de 2 pixels */
+  padding: 10px; /* Ajoute un espace intérieur de 10 pixels (ajustez selon vos préférences) */
+  margin-bottom: 10px; /* Ajoute une marge en bas de 10 pixels (ajustez selon vos préférences) */
+ 
+  
+}
+
+.compte-rendu {
+  text-align: center;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 50px;
+  background-color: white; /* Fond en blanc */
+  margin: 20px 0 0 0; /* Ajoutez une marge de 20 pixels seulement en haut (ou ajustez selon vos besoins) */
+}
+
+.compte-rendu th {
+  font-size: 30px;
+}
+
+.compte-rendu h2 {
+  font-size: 40px;
+}
+
+/* Si vous avez besoin de styles spécifiques pour la table, utilisez une nouvelle classe */
+.comptes-rendus-table {
+  margin: 20px auto; /* Centre le tableau horizontalement */
+  border: 2px solid black;
+  padding: 50px;
+  background-color: rgb(255, 255, 255); /* Fond en blanc */
+  max-width: 600px; /* Ajustez la largeur maximale du tableau selon vos besoins */
+  width: 100%; /* Définissez la largeur du tableau à 100% pour qu'il occupe l'espace disponible */
+}
+
+.comptes-rendus-container {
+  text-align: center;
+}
+
+.cr {
+  white-space: nowrap;
+}
+
+.tab_new-cr{
+  margin: 20px auto; /* Centre le tableau horizontalement */
+  border: 2px solid black;
+  padding: 50px;
+  background-color: rgb(255, 255, 255); /* Fond en blanc */
+  max-width: 600px; /* Ajustez la largeur maximale du tableau selon vos besoins */
+  width: 100%; /* Définissez la largeur du tableau à 100% pour qu'il occupe l'espace disponible */
+}
+
+.tab_mail-box{
+  margin: 20px auto; /* Centre le tableau horizontalement */
+  border: 2px solid black;
+  padding: 50px;
+  background-color: rgb(255, 255, 255); /* Fond en blanc */
+  max-width: 600px; /* Ajustez la largeur maximale du tableau selon vos besoins */
+  width: 100%; /* Définissez la largeur du tableau à 100% pour qu'il occupe l'espace disponible */
+}
